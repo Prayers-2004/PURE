@@ -32,7 +32,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     const mockUser: User = {
       id: '1',
       email,
-      name: role === 'company' ? 'AirPure Company' : 'John Doe',
+      name: role === 'company' ? 'AirPure Company' : 'Hey',
       role: role === 'company' ? 'company' : 'user'
     };
     
