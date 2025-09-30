@@ -160,12 +160,9 @@ export default function AboutPage() {
             Connect with us to learn more about our solutions.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href="/login"
-              className="px-8 py-3 bg-gradient-to-r from-blue-500 to-cyan-500 text-white rounded-2xl font-semibold hover:from-blue-600 hover:to-cyan-600 transition-all duration-200"
-            >
+            <div className="px-8 py-3 bg-gradient-to-r from-blue-500 to-cyan-500 text-white rounded-2xl font-semibold cursor-default">
               Get Started Today
-            </a>
+            </div>
             <a
               href="mailto:contact@airpure.com"
               className="px-8 py-3 border-2 border-blue-500 text-blue-600 rounded-2xl font-semibold hover:bg-blue-50 transition-all duration-200"

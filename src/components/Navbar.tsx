@@ -60,12 +60,9 @@ export default function Navbar() {
                 >
                   Login
                 </Link>
-                <Link
-                  href="/register"
-                  className="px-4 py-2 bg-gradient-to-r from-blue-500 to-cyan-500 text-white rounded-full hover:from-blue-600 hover:to-cyan-600 transition-all duration-200 font-medium"
-                >
+                <div className="px-4 py-2 bg-gradient-to-r from-blue-500 to-cyan-500 text-white rounded-full font-medium cursor-default">
                   Get Started
-                </Link>
+                </div>
               </div>
             )}
           </div>
