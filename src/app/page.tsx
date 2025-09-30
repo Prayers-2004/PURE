@@ -17,12 +17,9 @@ export default function Home() {
             Monitor real-time air quality, track purifier performance, and discover cleaner zones in your area with our advanced air purification monitoring system.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-8">
-            <a
-              href="/login"
-              className="px-8 py-4 bg-gradient-to-r from-blue-500 to-cyan-500 text-white rounded-2xl font-semibold hover:from-blue-600 hover:to-cyan-600 transition-all duration-200 shadow-lg hover:shadow-xl"
-            >
+            <div className="px-8 py-4 bg-gradient-to-r from-blue-500 to-cyan-500 text-white rounded-2xl font-semibold shadow-lg cursor-default">
               Get Started
-            </a>
+            </div>
             <a
               href="#public-data"
               className="px-8 py-4 border-2 border-gray-300 text-gray-700 rounded-2xl font-semibold hover:border-blue-500 hover:text-blue-600 transition-all duration-200"
